@@ -22,7 +22,7 @@ else :
     def load_data():
     #bikes_data_path = 'bike_sharing_demand_train.csv'
         data = pd.read_csv('df.csv')
-    return data
+        return data
     df = load_data()
 new_title = "<p style='font-family:serif; color:gis ; font-size: 42px;'>Detection d'anomalie pour le Nombre total de sessions connecter pour l'offre Connect pro</p>"
 st.markdown(new_title, unsafe_allow_html=True)
