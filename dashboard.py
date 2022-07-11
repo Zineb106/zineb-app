@@ -26,7 +26,7 @@ else :
     df = load_data()
 new_title = "<p style='font-family:serif; color:gis ; font-size: 42px;'>Detection d'anomalie pour le Nombre total de sessions connecter pour l'offre Connect pro</p>"
 st.markdown(new_title, unsafe_allow_html=True)
-#st.title("Detection d'anomalie pour le Nombre total de sessions connecter pour l'offre Connect pro" )
+#st.title("Detection d'anomalie pour le Nombre total de sessions" )
 
 #today = datetime.date.today()
 today ='2022/03/01'
