@@ -13,6 +13,17 @@ from sklearn.ensemble import IsolationForest
 
 import datetime
 
+
+uploaded_file = st.file_uploader("Choose a file")
+if uploaded_file is not None:
+    df = pd.read_csv(uploaded_file)
+    st.write(dataframe)
+else :
+    def load_data():
+    #bikes_data_path = 'bike_sharing_demand_train.csv'
+        data = pd.read_csv('df.csv')
+    return data
+    df = load_data()
 new_title = "<p style='font-family:serif; color:gis ; font-size: 42px;'>Detection d'anomalie pour le Nombre total de sessions connecter pour l'offre Connect pro</p>"
 st.markdown(new_title, unsafe_allow_html=True)
 #st.title("Detection d'anomalie pour le Nombre total de sessions connecter pour l'offre Connect pro" )
