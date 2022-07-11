@@ -24,7 +24,7 @@ else :
         data = pd.read_csv('df.csv')
         return data
     df = load_data()
-new_title = "<p style='font-family:serif; color:gis ; font-size: 42px;'>Detection d'anomalie pour le Nombre total de sessions connecter pour l'offre Connect pro</p>"
+new_title = "<p style='font-family:serif; color:gis ; font-size: 42px;'>Detection d'anomalie pour le Nombre total de sessions</p>"
 st.markdown(new_title, unsafe_allow_html=True)
 #st.title("Detection d'anomalie pour le Nombre total de sessions" )
 
