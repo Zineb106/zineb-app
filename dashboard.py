@@ -117,7 +117,7 @@ st.subheader('Boxplots')
 #    chosen_count=6
 	
 #fig3 = px.box(df_preprocessed[df_preprocessed['weekday']==chosen_count], x='hour', y='value', color='weekday', notched=True)
-fig3 = px.box(df_preprocessed, x='hour', y='value', color='weekday', notched=True)
-boxplot_chart = st.plotly_chart(fig3)
+#fig3 = px.box(df_preprocessed, x='hour', y='value', color='weekday', notched=True)
+#boxplot_chart = st.plotly_chart(fig3)
 
 
