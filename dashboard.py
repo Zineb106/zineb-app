@@ -33,7 +33,7 @@ else:
 #@st.cache
 def load_data():
     #bikes_data_path = 'bike_sharing_demand_train.csv'
-    data = pd.read_csv('demo_streamlit-master/src/df.csv')
+    data = pd.read_csv('df.csv')
     return data
 
 df = load_data()
@@ -109,6 +109,4 @@ st.subheader('Boxplots')
 fig3 = px.box(df_preprocessed, x='hour', y='value', color='weekday', notched=True)
 boxplot_chart = st.plotly_chart(fig3)
 
-st.title('Modelization')
 
-# %% Modelization
