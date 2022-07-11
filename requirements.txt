@@ -1,4 +1,6 @@
-streamlit==0.61.0
-pandas==0.25.3
-numpy==1.18.1
-scikit-learn==0.22.1
+streamlit==1.10.0
+pandas==1.2.4 
+numpy==1.20.1
+scikit-learn==0.24.1    
+plotly-express==0.4.1     
+
