@@ -95,7 +95,7 @@ ts_chart = st.plotly_chart(fig2)
 
 
 # %% boxplots
-st.subheader('Boxplots')
+#st.subheader('Boxplots')
 #categories_count = ['Lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', 'dimanche']
 
 #chosen_count = st.sidebar.selectbox(
